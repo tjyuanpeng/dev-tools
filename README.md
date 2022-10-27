@@ -1,6 +1,6 @@
 # ServiceForce develop tool
 
-基于 electron + vite + vue3 + pnpm + typescript 构建的桌面应用，主力前端开发
+基于 electron + vite + vue3 + pnpm + typescript 构建的桌面应用，助力前端开发
 
 ---
 
