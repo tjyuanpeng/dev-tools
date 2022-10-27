@@ -6,7 +6,13 @@
 
 ![run-capture](./docx/assets/capture.png)
 
----
+## 文档
+
+[https://tjyuanpeng.github.io/dev-tools/](https://tjyuanpeng.github.io/dev-tools/)
+
+## 下载
+
+[https://github.com/tjyuanpeng/dev-tools/releases](https://github.com/tjyuanpeng/dev-tools/releases)
 
 ## 安装依赖
 
@@ -24,12 +30,6 @@ pnpm run dev
 
 ```
 pnpm run build
-```
-
-## 上传可执行文件
-
-```
-pnpm run upload
 ```
 
 ## 文档开发
