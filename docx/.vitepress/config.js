@@ -1,6 +1,6 @@
 export default {
   outDir: '../docs',
-  base: '/dev-tool/',
+  base: '/dev-tools/',
   title: 'ServiceForce Develop Tool',
   head: [
     ['link', { rel: 'icon', href: '/dev-tool/favicon.png' }],
