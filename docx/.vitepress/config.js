@@ -1,5 +1,5 @@
 export default {
-  outDir: './.vitepress/gitlab-pages',
+  outDir: '../docs',
   base: '/dev-tool/',
   title: 'ServiceForce Develop Tool',
   head: [
@@ -16,8 +16,8 @@ export default {
       { text: '首页', link: '/' },
       { text: '教程', link: '/guide/index.html' },
       { text: '下载', link: '/download/' },
-      { text: 'Issues', link: 'http://g.lenovo.com.cn/yuanpeng3/dev-tool/-/issues' },
-      { text: 'Gitlab', link: 'http://g.lenovo.com.cn/yuanpeng3/dev-tool' },
+      { text: 'Issues', link: 'https://github.com/tjyuanpeng/dev-tools/issues' },
+      { text: 'Github', link: 'https://github.com/tjyuanpeng/dev-tools' },
     ],
     sidebar: {
       '/guide/': [

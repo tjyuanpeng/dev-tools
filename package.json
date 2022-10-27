@@ -10,9 +10,9 @@
     "dev": "vite",
     "build": "npx rimraf release && vue-tsc --noEmit && vite build && electron-builder",
     "upload": "node --experimental-json-modules ./scripts/upload.mjs",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "npx rimraf docs/node_modules && vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:dev": "vitepress dev docx",
+    "docs:build": "npx rimraf docs && vitepress build docx",
+    "docs:serve": "vitepress serve docx"
   },
   "engines": {
     "node": ">=14"
