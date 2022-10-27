@@ -1,0 +1,32 @@
+/**
+ * @see https://www.electron.build/configuration/configuration
+ */
+{
+  appId: 'ServiceForceDevelopTool',
+  asar: true,
+  directories: {
+    output: 'release',
+  },
+  files: ['dist'],
+  mac: {
+    artifactName: '${productName}_${version}.${ext}',
+    icon: './public/favicon.png',
+    target: ['dmg'],
+  },
+  win: {
+    icon: './public/favicon.png',
+    target: [
+      {
+        target: 'nsis',
+        arch: ['x64'],
+      },
+    ],
+    artifactName: '${productName}_${version}.${ext}',
+  },
+  nsis: {
+    oneClick: false,
+    perMachine: false,
+    allowToChangeInstallationDirectory: true,
+    deleteAppDataOnUninstall: false,
+  },
+}

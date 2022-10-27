@@ -1,0 +1,23 @@
+image: node:16.17.0-alpine3.16
+
+pages:
+  stage: deploy
+  before_script:
+    - npm install -g pnpm
+    - pnpm config set store-dir .pnpm-store
+  script:
+    - pnpm install --ignore-scripts
+    - pnpm run docs:build
+    - rm -rf public
+    - mv docs/.vitepress/gitlab-pages public
+  cache:
+    key:
+      files:
+        - pnpm-lock.yaml
+    paths:
+      - .pnpm-store
+  artifacts:
+    paths:
+      - public/
+  only:
+    - docs
