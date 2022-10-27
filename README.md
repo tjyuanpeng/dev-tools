@@ -1,10 +1,10 @@
-# ServiceForce develop tool
+# ServiceForce Develop Tool
 
 基于 electron + vite + vue3 + pnpm + typescript 构建的桌面应用，助力前端开发
 
 ---
 
-![run-capture](./docs/assets/capture.png)
+![run-capture](./docx/assets/capture.png)
 
 ---
 
