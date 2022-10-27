@@ -4,7 +4,6 @@ import { withBase } from 'vitepress'
 import { Apple, Download } from '@element-plus/icons-vue'
 import { version } from '../../package.json'
 
-const base = 'http://g.lenovo.com.cn/yuanpeng3/dev-tool'
 let win = reactive({
   version: '-',
   url: '',
@@ -29,7 +28,7 @@ onMounted(async () => {
 })
 
 function download(data) {
-  window.open(base + data.url, '_blank')
+  window.open(data.url, '_blank')
 }
 </script>
 
