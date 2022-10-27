@@ -1,5 +1,13 @@
 # ServiceForce develop tool
 
+基于 electron + vite + vue3 + pnpm + typescript 构建的桌面应用，主力前端开发
+
+---
+
+![run-capture](./docs/assets/capture.png)
+
+---
+
 ## 安装依赖
 
 ```
@@ -18,7 +26,7 @@ pnpm run dev
 pnpm run build
 ```
 
-## 发包
+## 上传可执行文件
 
 ```
 pnpm run upload
