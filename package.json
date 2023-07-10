@@ -6,7 +6,6 @@
   "author": "tjyuanepng@gmail.com",
   "private": true,
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "dev": "vite",
     "build": "npx rimraf release && vue-tsc --noEmit && vite build && electron-builder",
     "docs:dev": "vitepress dev docx",
@@ -19,7 +18,7 @@
   "devDependencies": {
     "@types/http-proxy": "^1.17.9",
     "@types/semver": "^7.3.12",
-    "@vitejs/plugin-vue": "^2.3.3",
+    "@vitejs/plugin-vue": "^3.2.0",
     "axios": "^0.27.2",
     "electron": "^19.0.8",
     "electron-builder": "^23.1.0",
